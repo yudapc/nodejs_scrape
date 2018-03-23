@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "casperjs": "./node_modules/casperjs/bin/casperjs casperjs_try.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,6 +15,7 @@
   "author": "yuda.pc@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "casperjs": "^1.1.4",
     "cheerio": "^1.0.0-rc.2",
     "kue": "^0.11.6",
     "node-es6": "^0.3.1",

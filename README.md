@@ -6,3 +6,6 @@ sample scrape html using nodejs
 
 ### Run
 `npm start`
+
+### Run CasperJS
+`npm run casperjs`
